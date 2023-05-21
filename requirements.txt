@@ -1,0 +1,7 @@
+argparse
+pyfiglet
+colorama
+httpx
+threading
+time
+

