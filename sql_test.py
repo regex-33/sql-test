@@ -51,9 +51,6 @@ def main():
     args = parser.parse_args()
 
     # Print banner
-    print_colored_message('URL Response Time Checker', colorama.Fore.CYAN, font='banner3-D')
-
-    # Print program running message
     print_colored_message('Your program is running!', colorama.Fore.GREEN, font='starwars')
 
     # Extract command line arguments
